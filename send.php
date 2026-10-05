@@ -5,7 +5,7 @@ declare(strict_types=1);
 use PHPMailer\PHPMailer\Exception;
 use PHPMailer\PHPMailer\PHPMailer;
 
-require _DIR_ . '/vendor/autoload.php';
+require __DIR__ . '/vendor/autoload.php';
 
 // Set header so the browser handles this as JSON
 header('Content-Type: application/json');
